@@ -1,0 +1,99 @@
+h2
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+.wrapperSearch
+{
+	margin-left: 45%;
+	margin-top:30px;
+}
+
+.query
+{
+	width: 300px;
+	height: 40px;
+	 border-style: solid;
+    border-width: 5px; 
+	color: black;
+	font-weight: bold;
+	
+	border-radius: 6px;
+	margin-right: 5px;
+	background: #b3dced; /* Old Browsers */
+	background: -moz-linear-gradient(left, #b3dced 0%, #29b8e5 50%, #bce0ee 100%); /* FF3.6+ */
+	background: -webkit-gradient(left top, right top, color-stop(0%, #b3dced), color-stop(50%, #29b8e5), color-stop(100%, #bce0ee)); /* Chrome, Safari4+ */
+	background: -webkit-linear-gradient(left, #b3dced 0%, #29b8e5 50%, #bce0ee 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #b3dced 0%, #29b8e5 50%, #bce0ee 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #b3dced 0%, #29b8e5 50%, #bce0ee 100%); /* IE 10+ */
+	background: linear-gradient(to right, #b3dced 0%, #29b8e5 50%, #bce0ee 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 ); /* IE6-9 */
+}
+
+.searchButton
+{
+	background-color:#b3dced;
+	border-radius: 4px;
+	width: 80px;
+	height: 30px;
+	cursor: pointer;
+	 text-transform: uppercase;
+	 text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+	 letter-spacing: 1px;
+}
+
+.searchButton:hover
+{
+	background-color:#c2edfe;
+}
+
+
+/* a
+{
+	margin-left: 5%;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+	
+	
+} */
+
+.randomWrapper
+{
+	margin-top: 20px;
+	margin-left:45px;
+	color: blue;
+	width: 300px;
+	
+	
+}
+a{
+	font-weight: bold;
+	color: red;
+	font-size: 110%;
+}
+
+a:hover
+{
+	 text-decoration: none!important;
+	 
+
+}
+
+
+ul {
+  width: 1000px;
+  margin: auto;
+}
+li {
+  list-style-type: none;
+  padding: 18px;
+  border-bottom: 1px dotted black;
+  margin-bottom: 10px;
+  font-size: 17px;
+  background: #eee;
+  border: rgba(0,0,0,.2) 10px solid;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+}
